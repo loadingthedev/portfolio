@@ -2,6 +2,7 @@ import Link from "next/link"
 import React from "react"
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 import { DiCssdeck } from "react-icons/di"
+import { SiTelegram } from "react-icons/si"
 
 import {
   Container,
@@ -21,11 +22,10 @@ const Header = () => (
             display: "flex",
             alignItems: "center",
             color: "white",
-            marginBottom: "20px",
+            marginBottom: "13px",
           }}
         >
-          <DiCssdeck size="3rem" />{" "}
-          <span style={{ fontSize: "2rem" }}>LoadingTheLife</span>
+          <DiCssdeck size="3rem" /> <span>LoadingTheLife</span>
         </a>
       </Link>
     </Div1>
@@ -47,14 +47,14 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://google.com">
+      <SocialIcons target="_blank" href="https://google.com">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://google.com">
+      <SocialIcons target="_blank" href="https://google.com">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://google.com">
-        <AiFillInstagram size="3rem" />
+      <SocialIcons target="_blank" href="https://google.com">
+        <SiTelegram size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
