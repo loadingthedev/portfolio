@@ -9,6 +9,16 @@ export const projects = [
     visit: "https://disney-plus-nextjs-g3xqm75yh-loadingthedev.vercel.app/",
     id: 0,
   },
+  {
+    title: "File Sharing App",
+    description:
+      "Created Using Html,Css and JavaScript.For Backend Use Nodejs with Expressjs.Files on server automatically got delted after 24hr",
+    image: "/images/lifeshare.png",
+    tags: ["html", "css", "nodejs", "express"],
+    source: "https://github.com/loadingthedev/lifeshare",
+    visit: "https://share.loadingthe.life",
+    id: 1,
+  },
   // {
   //   title: 'E-Commerce',
   //   description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
