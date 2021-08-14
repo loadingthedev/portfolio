@@ -21,7 +21,7 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
+          <LinkItem href="tel:+919990353412">+919990353412</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
@@ -35,13 +35,16 @@ const Footer = () => {
           <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons target="_blank" href="https://google.com">
+          <SocialIcons target="_blank" href="https://github.com/loadingthedev">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons target="_blank" href="https://google.com">
+          <SocialIcons
+            target="_blank"
+            href="https://www.linkedin.com/in/aftab-khan-a364651ba/"
+          >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons target="_blank" href="https://google.com">
+          <SocialIcons target="_blank" href="https://t.me/loadingthelife">
             <SiTelegram size="3rem" />
           </SocialIcons>
         </SocialContainer>
