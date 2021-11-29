@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 import {
   BlogCard,
@@ -12,13 +12,13 @@ import {
   TitleContent,
   UtilityList,
   Img,
-} from "./ProjectsStyles"
+} from "./ProjectsStyles";
 import {
   Section,
   SectionDivider,
   SectionTitle,
-} from "../../styles/GlobalComponents"
-import { projects } from "../../constants/constants"
+} from "../../styles/GlobalComponents";
+import { projects } from "../../constants/constants";
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -30,7 +30,8 @@ const Projects = () => (
           <BlogCard key={i}>
             <Img src={p.image} />
             <TitleContent>
-              <HeaderThree title>{p.title}</HeaderThree>
+              {/* <HeaderThree title>{p.title}</HeaderThree> */}
+              <HeaderThree>{p.title}</HeaderThree>
               <Hr />
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
@@ -38,7 +39,7 @@ const Projects = () => (
               <TitleContent>Stack</TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
-                  return <Tag key={i}>{t}</Tag>
+                  return <Tag key={i}>{t}</Tag>;
                 })}
               </TagList>
             </div>
@@ -51,10 +52,10 @@ const Projects = () => (
               </ExternalLinks>
             </UtilityList>
           </BlogCard>
-        )
+        );
       })}
     </GridContainer>
   </Section>
-)
+);
 
-export default Projects
+export default Projects;
