@@ -6,7 +6,7 @@ export const projects = [
     image: "/images/disney.png",
     tags: ["TMDB", "Nextjs", "React", "tailwind"],
     source: "https://github.com/loadingthedev/disney-plus-nextjs",
-    visit: "https://disney-plus-nextjs-g3xqm75yh-loadingthedev.vercel.app/",
+    visit: "https://disney-plus-nextjs.vercel.app/",
     id: 0,
   },
   {
