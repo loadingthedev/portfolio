@@ -29,6 +29,16 @@ export const projects = [
     visit: "https://spotify-eight-virid.vercel.app/",
     id: 2,
   },
+  {
+    title: "StickPix",
+    description:
+      "Stickpix is a site which i build with the inspiration of mixtiles.com . use nodejs as a backend to authenticate user and implimented Payment by Razorpay",
+    image: "/images/tiles.png",
+    tags: ["React", "NextJS", "Nodejs", "JavaScript"],
+    source: "https://github.com/loadingthedev/tiles",
+    visit: "https://tiles-loading.vercel.app/review",
+    id: 3,
+  },
   // {
   //   title: 'WebRTC App',
   //   description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
